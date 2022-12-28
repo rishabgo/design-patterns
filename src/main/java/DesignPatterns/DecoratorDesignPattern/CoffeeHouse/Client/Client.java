@@ -10,15 +10,15 @@ public class Client {
 
     public static void main(String[] args) {
         Coffee americanoCoffee = new Americano();
-        System.out.println("Cost of Americano - " + americanoCoffee.calculateCost() + "$");
+        System.out.println("Cost of " + americanoCoffee.getCoffeeName() + " is - " + americanoCoffee.calculateCost() + "$");
 
         Coffee almondMilkCoffee = new AlmondMilk(americanoCoffee);
-        System.out.println("Cost of Americano coffee with almond milk - " + almondMilkCoffee.calculateCost() + "$");
+        System.out.println("Cost of " + almondMilkCoffee.getCoffeeName() + " is - " + almondMilkCoffee.calculateCost() + "$");
 
         Coffee cappuccinoCoffee = new Cappuccino();
-        System.out.println("Cost of Cappuccino - " + cappuccinoCoffee.calculateCost() + "$");
+        System.out.println("Cost of " + cappuccinoCoffee.getCoffeeName() + " is - " + cappuccinoCoffee.calculateCost() + "$");
 
         Coffee cappuccinoWithWhippedCream = new WhippedCream(cappuccinoCoffee);
-        System.out.println("Cost of cappuccino with whipped cream - " + cappuccinoWithWhippedCream.calculateCost() + "$");
+        System.out.println("Cost of " + cappuccinoWithWhippedCream.getCoffeeName() + " is - " + cappuccinoWithWhippedCream.calculateCost() + "$");
     }
 }

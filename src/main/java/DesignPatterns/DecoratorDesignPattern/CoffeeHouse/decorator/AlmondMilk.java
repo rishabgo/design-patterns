@@ -8,6 +8,7 @@ public class AlmondMilk extends Coffee {
 
     public AlmondMilk(Coffee coffee) {
         this.coffee = coffee;
+        this.coffeeName = coffee.getCoffeeName() + " with almond milk";
     }
 
     @Override

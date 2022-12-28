@@ -6,8 +6,9 @@ public class WhippedCream extends Coffee {
 
     private Coffee coffee;
 
-    public WhippedCream(Coffee coffee){
+    public WhippedCream(Coffee coffee) {
         this.coffee = coffee;
+        this.coffeeName = coffee.getCoffeeName() + " with whipped cream";
     }
 
     @Override

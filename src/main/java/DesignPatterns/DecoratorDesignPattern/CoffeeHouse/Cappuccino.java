@@ -1,6 +1,10 @@
 package DesignPatterns.DecoratorDesignPattern.CoffeeHouse;
 
-public class Cappuccino extends Coffee{
+public class Cappuccino extends Coffee {
+
+    public Cappuccino() {
+        this.coffeeName = "cappuccino";
+    }
 
     @Override
     public double calculateCost() {

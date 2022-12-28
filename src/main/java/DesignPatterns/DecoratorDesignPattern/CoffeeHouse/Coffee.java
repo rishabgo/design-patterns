@@ -2,7 +2,11 @@ package DesignPatterns.DecoratorDesignPattern.CoffeeHouse;
 
 public abstract class Coffee {
 
-    double basePrice;
+    protected String coffeeName;
+
+    public String getCoffeeName() {
+        return this.coffeeName;
+    }
 
     public abstract double calculateCost();
 }
