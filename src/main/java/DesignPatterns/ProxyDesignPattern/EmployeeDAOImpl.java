@@ -1,6 +1,6 @@
 package DesignPatterns.ProxyDesignPattern;
 
-public class Employee implements EmployeeDAO {
+public class EmployeeDAOImpl implements IEmployeeDAO {
 
     @Override
     public void createUser(String permission, EmployeeDTO employeeDTO) {

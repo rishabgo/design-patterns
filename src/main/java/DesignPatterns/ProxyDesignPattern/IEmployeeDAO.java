@@ -1,6 +1,6 @@
 package DesignPatterns.ProxyDesignPattern;
 
-public interface EmployeeDAO {
+public interface IEmployeeDAO {
 
     void createUser(String permission, EmployeeDTO employeeDTO);
 

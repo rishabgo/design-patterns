@@ -1,11 +1,11 @@
 package DesignPatterns.ProxyDesignPattern;
 
-public class EmployeeProxy implements EmployeeDAO{
+public class EmployeeProxy implements IEmployeeDAO {
 
-    private final Employee employee;
+    private final EmployeeDAOImpl employee;
 
     public EmployeeProxy() {
-        this.employee = new Employee();
+        this.employee = new EmployeeDAOImpl();
     }
 
     @Override
