@@ -5,10 +5,7 @@ import DesignPatterns.ObserverDesignPattern.OrderObserver.Observer.Observer;
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class Order {
-
-
     private String orderId;
     private int itemQuantity;
     private double totalPrice;

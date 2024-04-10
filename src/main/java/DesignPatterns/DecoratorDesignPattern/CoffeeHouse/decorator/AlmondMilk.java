@@ -4,7 +4,7 @@ import DesignPatterns.DecoratorDesignPattern.CoffeeHouse.Coffee;
 
 public class AlmondMilk extends Coffee {
 
-    private Coffee coffee;
+    private final Coffee coffee;
 
     public AlmondMilk(Coffee coffee) {
         this.coffee = coffee;
