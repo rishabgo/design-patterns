@@ -28,4 +28,9 @@ public class IndianSandwichWithHooks extends Sandwich {
     public boolean wantVeggies() {
         return true;
     }
+
+    @Override
+    public boolean wantCondiments() {
+        return true;
+    }
 }

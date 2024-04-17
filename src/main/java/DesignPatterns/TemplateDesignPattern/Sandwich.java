@@ -26,8 +26,8 @@ public abstract class Sandwich {
 
     public abstract void addVeggies();
 
-    private boolean wantCondiments() {
-        return true;
+    public boolean wantCondiments() {
+        return false;
     }
 
     public abstract void addCondiments();

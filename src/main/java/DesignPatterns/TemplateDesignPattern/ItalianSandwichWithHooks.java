@@ -30,5 +30,8 @@ public class ItalianSandwichWithHooks extends Sandwich {
         return true;
     }
 
-
+    @Override
+    public boolean wantCondiments() {
+        return true;
+    }
 }
